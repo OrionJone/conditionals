@@ -28,10 +28,13 @@ print('\n' + 'Task 1' + '\n')
 #       7. a <= b > c <= d
 #
 # WRITE CODE BELOW #
-a = float(input('a = '))
-b =
-c =
-d =
+a = float(input('a = b'))
+b = float(input('a = b = c'))
+c = float(input('a > b > c '))
+d = float(input('a < b < c < d'))
+e = float(input('a != b == c != d'))
+f = float(input('a >= b >= c == d'))
+g = float(input('a <= b > c <= d'))
 
 print('a == b |', a == b)
 
@@ -53,8 +56,8 @@ print('\n' + 'Task 2' + '\n')
 #           the first word appears after the second word.
 #
 # WRITE CODE BELOW #
-word1 = input('enter a word: ')
-word2 =
+word1 = input('The')
+word2 = input('User')
 
 if word1 == word2:
     print(word1, 'and', word2, 'are the same!')
@@ -78,6 +81,13 @@ print('\n' + 'Task 3' + '\n')
 #       5. Otherwise, print 'Lose!'
 #
 # WRITE CODE BELOW #
+from random import randit
+
+print(randint(1, 6))
+print(randint(1, 6)) 
+
+
+
 
 
 
